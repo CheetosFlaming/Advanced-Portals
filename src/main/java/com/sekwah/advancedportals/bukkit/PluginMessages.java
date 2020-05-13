@@ -22,11 +22,11 @@ public class PluginMessages {
     //  easily changed.
 
     public static void UnknownCommand(CommandSender sender, String command) {
-        sender.sendMessage(customPrefixFail + " You need to type something after /" + command + "\n");
-        sender.sendMessage("\u00A7cIf you do not know what you can put or would like some help with the commands please type \u00A7e" + '"' + "\u00A7e/" + command + " help" + '"' + "\u00A7c\n");
+        sender.sendMessage(customPrefixFail + " Necesitas escribir algo antes /" + command + "\n");
+        sender.sendMessage("\u00A7cSi no sabes que escribir o necesitas ayuda con los comandos escribe \u00A7e" + '"' + "\u00A7e/" + command + " help" + '"' + "\u00A7c\n");
     }
 
     public static void NoPermission(CommandSender sender, String command) {
-        sender.sendMessage(customPrefixFail + " You do not have permission to perform that command!");
+        sender.sendMessage(customPrefixFail + " No tienes permiso para utilizar este comando!");
     }
 }
